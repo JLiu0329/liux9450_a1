@@ -1,0 +1,113 @@
+/*
+ * These import fonts that are not available in the OS.
+ */
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,700,300italic,700italic);
+
+/* This changes everything inside the body tag. */
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 24px;
+    font-weight: normal;
+    color: black;
+}
+
+/* This is for Serif fonts. */
+.cp202-a1-serif {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+
+/* This is for Sans serif fonts. */
+.cp202-a1-sans-serif {
+    font-family: Quicksand, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+
+/* This is for Sans serif fonts. */
+.cp202-a1-ubuntu {
+    font-family: Ubuntu, "sans-serif";
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+
+/* This is test: never use Comic Sans. */
+/* Never is a long time, but you have to have a really, really good reason to use Comic Sans. */
+.cp202-a1-comic-sans {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+
+.redButtonSmall {
+  background: #e50914;
+  opacity:1.0;
+  padding:8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius:4px;
+}
+
+.redButton {
+  background: #e50914;
+  opacity:1.0;
+  padding:16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius:2px;
+}
+
+.buttonText {
+  font-size: 1rem;
+  min-height: 44px;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.08em
+}
+
+.heroText {
+  font-size: 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color:white;
+  font-weight: 700;
+  background-color: white;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.imageBackground {
+  background: white;
+  padding:32px;
+  border-radius:16px;
+}
+
+.slideTextBackground {
+  background: white;
+  opacity:0.6;
+  padding:32px;
+  border-radius:16px;
+}
+
+
+.redBackground {
+  background: #cc003b;
+}
+.darkRedBackground {
+  background: #99003b;
+}
+.redPurpleBackground {
+  background: #66003b;
+}
+.purpleBackground {
+  background: #33003b;
+}
+.blueBackground {
+  background: #00003b;
+}
